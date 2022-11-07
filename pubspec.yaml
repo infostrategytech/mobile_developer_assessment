@@ -1,0 +1,38 @@
+name: mobile_assessment
+description: Irecharge mobile team assessment
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  google_fonts:
+  url_launcher:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+#flutter_icons:
+#  ios: true
+#  android: true
+#  image_path_ios: 'assets/images/logo_transparent.png'
+#  image_path_android: 'assets/images/logo_transparent.png'
+
+flutter:
+
+  uses-material-design: true
+
+#  assets:
+#    - assets/images/
+#    - assets/images/logos/
+#    - assets/images/icons/
+#    - assets/images/navbar_icons/active/
+#    - assets/images/navbar_icons/inactive/
