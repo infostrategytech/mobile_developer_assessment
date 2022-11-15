@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_assessment/ui/views/splash/view.dart';
+import 'package:mobile_assessment/ui/views/home/view.dart';
 
 class MobileAssessmentApp extends StatefulWidget {
   final bool isDebug;
