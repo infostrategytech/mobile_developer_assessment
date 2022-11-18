@@ -2,8 +2,8 @@ class Api{
   Api._();
 
   static Map<String, dynamic> errorRexponse = {
-    "statusCode" : 200,
-    "message": "Successful!",
+    "statusCode" : 400,
+    "message": "An error occurred",
     "errors": [
       {
         "errorCode": "UNABLE_TO_READ",
@@ -94,6 +94,36 @@ class Api{
         "level": 1,
         "productivity_score": 69.0,
         "current_salary": "100,000",
+        "employment_status": 1
+      },
+      {
+        "id" : 123,
+        "first_name" : "Ben",
+        "last_name": "Franklin",
+        "designation": "Legal",
+        "level": 1,
+        "productivity_score": 44.0,
+        "current_salary": "100,000",
+        "employment_status": 1
+      },
+      {
+        "id" : 14,
+        "first_name" : "Bob",
+        "last_name": "Timson",
+        "designation": "Tech",
+        "level": 3,
+        "productivity_score": 78.8,
+        "current_salary": "180,000",
+        "employment_status": 1
+      },
+      {
+        "id" : 18,
+        "first_name" : "Ben",
+        "last_name": "Angel",
+        "designation": "Customer Relations",
+        "level": 0,
+        "productivity_score": 89.0,
+        "current_salary": "70,000",
         "employment_status": 1
       },
     ]
