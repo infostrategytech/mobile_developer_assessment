@@ -4,7 +4,7 @@ Irecharge mobile team assessment
 
 ## Getting Started
 
-This project is a starting point for the mobile team assessment flutter applicatio.
+This project is a starting point for the mobile team assessment flutter application.
 
 A few instructions before you start the ssessment:
 
