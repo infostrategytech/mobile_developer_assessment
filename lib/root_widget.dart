@@ -15,6 +15,8 @@ class _MobileAssessmentAppState extends State<MobileAssessmentApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: widget.isDebug, home: const HomeScreen());
+      debugShowCheckedModeBanner: widget.isDebug,
+      home: const HomeScreen(),
+    );
   }
 }

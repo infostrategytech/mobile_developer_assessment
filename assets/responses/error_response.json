@@ -1,0 +1,19 @@
+{
+    "statusCode" : 400,
+    "message": "An error occurred",
+    "errors": [
+      {
+        "errorCode": "UNABLE_TO_READ",
+        "message": "The table entry 'salary' does not exist"
+      },
+      {
+        "errorCode": "UNABLE_TO_READ",
+        "message": "The table entry 'name' does not exist"
+      },
+      {
+        "errorCode": "DUPLICATE_ENTRY",
+        "message": "The table entry 'designation' already exists"
+      }
+    ],
+    "data": {}
+  }
