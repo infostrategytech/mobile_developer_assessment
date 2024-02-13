@@ -10,8 +10,6 @@ class MobileAssessmentApp extends StatefulWidget {
 }
 
 class _MobileAssessmentAppState extends State<MobileAssessmentApp> {
-  late GlobalKey<NavigatorState> navigatorKey;
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

@@ -23,7 +23,7 @@ XYZ inc. is interested in automating its processes and has a project for you to 
 
 You have been assigned to build mobile system that primarily handles this for the people at XYZ inc. They do, however have a few secondary requirements which are:
 
-- The list of employees can be retrieved from assets/success_response.json and should be displayed on the home screen as wll as saved in a local database
+- The list of employees can be retrieved from Api.successResponse and should be displayed on the home screen as wll as saved in a local database
 - The employees can be filtered by name, designation or level
 - When an employee is tapped, their employee details where their employment status and new salary can be determined
   - Level 0 = 70,000
@@ -32,7 +32,7 @@ You have been assigned to build mobile system that primarily handles this for th
   - Level 3 – 180,000,
   - Level 4 – 200,000
   - Level 5 – 250,000
-- Simulate an error response from assets/error_response.json on the home page
+- Simulate an error response from Api.errorResponse on the home page
 - A level 0 employee cannot be demoted, only terminated if need be.
 
 # Bonus:
