@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_assessment/ui/views/home/view.dart';
+import 'package:mobile_assessment/modules/home/presentation/home_screen.dart';
 
 class MobileAssessmentApp extends StatefulWidget {
   final bool isDebug;
@@ -15,8 +15,6 @@ class _MobileAssessmentAppState extends State<MobileAssessmentApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: widget.isDebug,
-      home: const HomeView()
-    );
+        debugShowCheckedModeBanner: widget.isDebug, home: const HomeScreen());
   }
 }
